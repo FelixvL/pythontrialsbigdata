@@ -1,0 +1,173 @@
+Id;ParentId;Index;Title;Description
+M003348;;2;Opbouw bbp vanuit de finale bestedingen;De opbouw van het bruto binnenlands product vanuit de productie. Dit is gelijk aan de som van de toegevoegde waarde van alle bedrijfstakken (inclusief niet-commerciële). De toegevoegde waarde wordt geregistreerd tegen basisprijzen. Om uit te komen op het bbp tegen marktprijzen moet het saldo van productgebonden belastingen en subsidies en verschil tussen toegerekende en afgedragen btw erbij worden opgeteld. De belastingen en subsidies hebben betrekking op zowel geproduceerde als ingevoerde goederen en diensten. Voorbeelden hiervan zijn btw en invoerheffingen.
+M006278_1;M003348;3;Beschikbaar voor finale bestedingen;Het binnenlands product (bruto, marktprijzen) plus de invoer van goederen en diensten.
+A049145_2;M006278_1;7;Invoer van goederen en diensten;De goederen- en dienstenstromen (verkoop, ruil en giften) van niet-ingezetenen naar ingezetenen (in Nederland). Invoer van goederen vindt plaats wanneer de economische eigendom van goederen door een niet-ingezetene wordt overgedragen aan een ingezetene, ongeacht of er sprake is van een fysieke grensoverschrijdende goederenbeweging. Een bedrijf of instantie wordt als hier ingezetene beschouwd wanneer het minimaal een jaar in Nederland actief is. Of dit bedrijf of deze instantie in buitenlandse handen is, doet niet ter zake.
+M006359_1;M003348;11;Finale bestedingen;Het totaal van consumptieve bestedingen, investeringen in vaste activa (bruto), veranderingen in voorraden en uitvoer.
+M006359_3;M006359_1;13;Nationale finale bestedingen;Binnenlandse finale bestedingen die bestaan uit de consumptieve bestedingen van huishoudens en de overheid, de bruto investeringen in vaste activa (bruto) en de voorraadvorming.
+A046348_1;M006359_3;15;Consumptieve bestedingen;Uitgaven aan goederen en diensten die worden gebruikt voor de rechtstreekse bevrediging van individuele of collectieve behoeften. De consumptieve bestedingen kunnen zowel op het eigen grondgebied als in het buitenland worden gedaan, maar het gaat altijd om uitgaven door ingezeten institutionele eenheden, dat wil zeggen in Nederland gevestigde huishoudens, izw's t.b.v. huishoudens en overheidsinstanties. Consumptieve bestedingen worden gedaan door huishoudens, izw's t.b.v. huishoudens en de overheid. Ondernemingen consumeren niet: kosten aan goederen en diensten die ondernemingen maken ten behoeve van hun productie vallen hier niet onder, maar onder intermediair verbruik of investeringen. De overheid is een speciaal geval. Ook de overheid kent intermediair verbruik, naar analogie van ondernemingen. Maar de productie die de overheid levert en waar niet rechtstreeks voor wordt betaald, niet-markt-output (veiligheid bijvoorbeeld), valt onder de (overheids-)consumptie. Het heet dat de overheid 'haar eigen productie consumeert'. Binnen de nationale rekeningen moet alles wat wordt geproduceerd namelijk ook worden afgenomen. Dat de consumptie van de overheidsproductie bij de overheid zelf is neergelegd, is een conventie. Daarnaast bevat de overheidsconsumptie ook door de overheid verstrekte sociale uitkeringen in natura zoals basiszorg (gefinancierd uit AWBZ en de Zorgverzekeringswet) en huurtoeslag.
+A044490_1;M006359_3;19;Bruto investeringen in vaste activa;"Uitgaven aan productiemiddelen die langer dan één jaar worden ingezet tijdens een productieproces. Het gaat hierbij bijvoorbeeld om een gebouw, woning, vervoermiddel of een machine. Dit in tegenstelling tot goederen of diensten die tijdens het productieproces worden opgebruikt, zoals ijzererts, het intermediair verbruik. Vaste activa kunnen in de loop der jaren in waarde verminderen door slijtage of omdat bijvoorbeeld de techniek veroudert (economische veroudering). Dit wordt verbruik van vaste activa genoemd (ook wel afschrijvingen genoemd). Bij bruto-investeringen zijn deze niet afgehaald van de waarde van de investeringen, bij netto-investeringen is dit wel het geval. 
+
+De volgende investeringsgoederen worden onderscheiden: bouwwerken, vervoermiddelen, machines en installaties, telecommunicatieapparatuur, wapensystemen (inbegrepen bij machines), computers, software, onderzoek en ontwikkeling, in cultuur gebrachte activa (bv. vee en bomen), exploratie en evaluatie van minerale reserves, kosten van eigendomsoverdracht voor niet-geproduceerde activa en intellectuele-eigendommen."
+A049140_1;M006359_1;24;Uitvoer van goederen en diensten;De goederen- en dienstenstromen (verkoop, ruil en giften) van ingezetenen (in Nederland) naar niet-ingezetenen. Uitvoer van goederen vindt plaats wanneer het economisch eigendom van goederen door een ingezetene wordt overgedragen aan een niet-ingezetene, ongeacht of er sprake is van een fysieke grensoverschrijdende goederenbeweging. Een bedrijf of instantie wordt als hier ingezetene beschouwd wanneer het minimaal een jaar in Nederland actief is. Of dit bedrijf of deze instantie in buitenlandse handen is, doet niet ter zake.
+M003349;;28;Opbouw bbp vanuit de productie;De opbouw van het bruto binnenlands product vanuit de productie. Dit is gelijk aan de som van de toegevoegde waarde van alle bedrijfstakken (inclusief niet-commerciële). De toegevoegde waarde wordt geregistreerd tegen basisprijzen. Om uit te komen op het bbp tegen marktprijzen moet het saldo van productgebonden belastingen en subsidies en verschil tussen toegerekende en afgedragen btw erbij worden opgeteld. De belastingen en subsidies hebben betrekking op zowel geproduceerde als ingevoerde goederen en diensten. Voorbeelden hiervan zijn btw en invoerheffingen.
+A048156_1;M003349;29;Bruto toegevoegde waarde basisprijzen;"De waarde van alle geproduceerde goederen en diensten (de productiewaarde of output) minus de waarde van goederen en diensten die tijdens deze productie zijn opgebruikt (het intermediair verbruik). De output is gewaardeerd tegen basisprijzen, dit is de verkoopprijs exclusief de handels- en vervoersmarge en exclusief de afgedragen productgebonden belastingen en de ontvangen productgebonden subsidies. Het intermediair verbruik is gewaardeerd tegen aankoopwaarde exclusief niet-aftrekbare btw.
+Inbegrepen is de toegevoegde waarde van alle in Nederland opererende bedrijfseenheden, dus ook degene die in buitenlandse handen zijn. 
+
+In de nationale rekeningen betekent 'bruto' vóór aftrek van het verbruik van vaste activa (afschrijvingen) en 'netto' na aftrek van het verbruik van vaste activa."
+300035_1;A048156_1;31;A-F Landbouw en nijverheid;"Landbouw, nijverheid en energievoorziening
+Deze categorie is een samentelling van categorieën: 
+A Landbouw, bosbouw en visserij
+B Winning van delfstoffen
+C Industrie
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering
+F Bouwnijverheid"
+300002_1;300035_1;34;B-E Nijverheid (geen bouw) en energie;"Deze categorie is een samentelling van categorieën:
+B Winning van delfstoffen
+C Industrie
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom
+en gekoelde lucht
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering"
+307500_1;300002_1;37;C Industrie;"Industrie
+Deze sectie omvat:
+- de mechanische, fysische of chemische verwerking van materialen, stoffen of onderdelen tot nieuwe producten. De verwerkte materialen, stoffen of onderdelen zijn grondstoffen uit de landbouw, bosbouw, visserij en mijnbouw, alsmede (half)fabricaten uit de industrie.
+- reparatie en installatie van machines, apparatuur en andere benodigdheden voor bedrijven (geen consumentengoederen).
+
+Bij de eenheden in deze sectie gaat het vaak om fabrieken waar gewoonlijk machines en apparaten worden gebruikt. Eenheden waar materialen of stoffen met de hand of in de eigen woning tot nieuwe producten worden verwerkt en die producten op de plaats waar deze zijn gemaakt, zelf verkopen, zoals bakkerijen en kleermakerijen, vallen echter ook onder deze sectie.
+
+Industriële eenheden kunnen materialen zelf verwerken of dit aan andere eenheden uitbesteden. In beide gevallen valt dit onder de sectie Industrie.
+
+Reparatie van huishoudelijke apparaten en consumptiegoederen wordt ingedeeld in afdeling 95; 
+de reparatie van (bedrijfs-)auto's en motoren in afdeling 45: de autobranche.
+
+De vervaardiging van specifieke componenten en onderdelen, toebehoren en hulpstukken voor machines en apparaten wordt gewoonlijk ingedeeld in dezelfde klasse als de vervaardiging van de desbetreffende machines en apparaten.
+De vervaardiging van niet-specifieke componenten en onderdelen voor machines en apparatuur, zoals motoren, zuigers, elektromotoren,
+elektra-installatiemateriaal, kleppen, kogellagers, rollagers, worden in de passende klasse van de sectie industrie ingedeeld.
+
+De sectie omvat niet:
+- activiteiten die niet leiden tot een nieuw product, maar tot een gewijzigde versie van hetzelfde product:
+* het opsplitsen van partijen stukgoederen in kleinere partijen, inclusief het verpakken, herverpakken;
+* het bottelen van producten als alcoholhoudende dranken of chemicaliën;
+* de montage van computers volgens de specifieke wensen van een klant;
+* het mengen van verf;
+Deze activiteiten worden ingedeeld in sectie G (groothandel en detailhandel)."
+300007_1;A048156_1;53;G-N Commerciële dienstverlening;"Commerciële dienstverlening
+Deze categorie is een samentelling van categorieën: 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking
+J Informatie en communicatie
+K Financiële instellingen 
+L Verhuur van en handel in onroerend goed
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening
+N Verhuur van roerende goederen en overige zakelijke dienstverlening"
+300006_1;300007_1;55;G-I Handel, vervoer en horeca;"Handel, vervoer en horeca
+Deze categorie is een samentelling van categorieën: 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking"
+300010_1;300007_1;63;M-N Zakelijke dienstverlening;"Zakelijke dienstverlening
+Deze categorie is een samentelling van categorieën: 
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening
+N Verhuur van roerende goederen en overige zakelijke dienstverlening"
+410200_1;300010_1;66;N Verhuur en overige zakelijke diensten;"Verhuur van roerende goederen en overige zakelijke dienstverlening
+Deze sectie omvat:
+- activiteiten die zakelijke gebruikers ondersteunen bij de bedrijfsvoering. Het verschil van deze activiteiten met die uit sectie M is dat de activiteiten uit deze sectie niet primair gericht zijn op het overbrengen van expertise en kennis."
+300013_1;A048156_1;72;O-U Niet-commerciële dienstverlening;"Niet-commerciële dienstverlening
+Deze categorie is een samentelling van categorieën: 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+P Onderwijs
+Q Gezondheids- en welzijnszorg
+R Cultuur, sport en recreatie
+S Overige dienstverlening
+T Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik
+U Extraterritoriale organisaties en lichamen"
+300012_1;300013_1;74;O-Q Overheid en zorg;"Overheid en zorg
+Deze categorie is een samentelling van categorieën: 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+P Onderwijs
+Q Gezondheids- en welzijnszorg"
+800007_1;300012_1;76;O-P Overheid en onderwijs;"Deze categorie is een samentelling van categorieën:              
+O. Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+P. Onderwijs"
+M006534;M003349;82;Productgebonden belastingen en subsidies;De productgebonden belastingen en subsidies op geproduceerde en ingevoerde goederen en diensten.
+M006486;;88;Opbouw vanuit de inkomensvorming;De opbouw van het bruto binnenlands product vanuit de inkomens uit productie. Deze bestaan uit de beloning van werknemers en het exploitatieoverschot/gemengd inkomen. Om uit te komen op het bbp tegen marktprijzen moet het saldo van (al dan niet productgebonden) belastingen en subsidies op productie en invoer hierbij worden opgeteld.
+M001048;M006486;91;Belastingen en subsidies;De (al dan niet productgebonden) betaalde belastingen op productie en invoer en de ontvangen subsidies.
+M006485;;99;Opbouw nationaal vorderingensaldo;De opbouw nationaal vorderingensaldo laat twee benaderingen zien die, gestart met het gevormde bruto binnenlands product (bbp), beiden uitkomen op het begrip nationaal vorderingen saldo. 
+M006446;M006485;100;Nationaal inkomensoverschot benadering;"Deze benadering loopt via de inkomens en de bestedingen in Nederland en komt via het nationaal inkomensoverschot en het saldo ontvangen kapitaaltransacties uit op het nationaal vorderingensaldo.
+"
+M006567_1;M006446;102;Saldo primaire inkomens buitenland;"Het verschil tussen de uit het buitenland ontvangen primaire inkomens en de aan het buitenland betaalde primaire inkomens.
+
+Wanneer een in Nederland ingezeten bedrijf in het buitenland actief wordt, wordt de betreffende bedrijfseenheid na een jaar niet langer gezien als ingezetene in Nederland, maar als ingezetene in het buitenland. Omgekeerd geldt een bedrijfseenheid met een buitenlandse moederonderneming als ingezetene wanneer het hier langer dan een jaar actief is. Ingezeten personen die zich in het buitenland vestigen, worden eveneens na een jaar niet langer gezien als ingezetene in Nederland, maar als ingezetene in het buitenland. Omgekeerd wordt een niet-ingezetene een ingezetene in Nederland wanneer hij of zij hier minimaal een jaar is gevestigd. Een uitzondering op deze regel vormen studenten. Deze worden altijd als ingezetene gezien van het land waar zij gevestigd waren voordat zij gingen studeren."
+M006557_1;M006446;107;Saldo inkomensoverdrachten buitenland;"Het verschil tussen de uit het buitenland ontvangen inkomensoverdrachten en de aan het buitenland betaalde inkomensoverdrachten.
+
+Wanneer een in Nederland ingezeten bedrijf in het buitenland actief wordt, wordt de betreffende bedrijfseenheid na een jaar niet langer gezien als ingezetene in Nederland, maar als ingezetene in het buitenland. Omgekeerd geldt een bedrijfseenheid met een buitenlandse moederonderneming als ingezetene wanneer het hier langer dan een jaar actief is. Ingezeten personen die zich in het buitenland vestigen, worden eveneens na een jaar niet langer gezien als ingezetene in Nederland, maar als ingezetene in het buitenland. Omgekeerd wordt een niet-ingezetene een ingezetene in Nederland wanneer hij of zij hier minimaal een jaar is gevestigd. Een uitzondering op deze regel vormen studenten. Deze worden altijd als ingezetene gezien van het land waar zij gevestigd waren voordat zij gingen studeren.
+"
+M006561;M006485;117;Saldo lopende transacties benadering;"De benadering van het nationaal vorderingensaldo via het saldo lopende transacties met het buitenland.
+Het saldo van de lopende transacties van Nederland met het buitenland is opgebouwd uit de saldi van goederenverkeer, dienstenverkeer en inkomenstransacties. Achtereenvolgens zijn gepresenteerd: het saldo van de goederenuitvoer (ook wel het uitvoeroverschot van goederen), het uitvoer-
+overschot van diensten, het saldo van ontvangen en betaalde primaire inkomens en het saldo van ontvangen en betaalde secundaire inkomens (inkomensoverdrachten om niet)."
+M006558_1;M006485;124;Saldo kapitaaloverdrachten buitenland;Het verschil tussen de uit het buitenland ontvangen kapitaaloverdrachten en de aan het buitenland betaalde kapitaaloverdrachten. Kapitaaloverdrachten zijn betalingen of overdracht van eigendom van activa (geen voorraden of geld) waar geen tegenprestatie tegenover staat. De betaling van een kapitaaloverdracht drukt op het vermogen van de betaler. De ontvangst van een kapitaalsoverdracht is over het algemeen bedoeld om investeringen in vaste activa, of andere lange-termijnuitgaven van de ontvanger te financieren. Er zijn vier deeltransacties onderscheiden: investeringsbijdragen, vermogensheffingen, overige kapitaaloverdrachten en toegerekende kapitaaloverdrachten.
+M006248;;130;Aanvullende detailgegevens;"De detailgegevens hebben betrekking op variabelen waarvoor elders in deze tabel alleen het totaal is opgenomen. Er zijn detailgegevens over verschillende bestedingsvariabelen. De totale consumptieve bestedingen worden gespecificeerd naar twee verschillende indelingen: de
+bestedingsindeling en de verwervingsindeling. De bruto investeringen in vaste activa zijn nader gespecificeerd naar bedrijfsklasse van bestemming en naar type van activa. Verder zijn de gegevens over de uitvoer en invoer van goederen en diensten naar productgroepen afzonderlijk opgenomen."
+A046348_4;M006248;131;Consumptieve bestedingen;Uitgaven aan goederen en diensten die worden gebruikt voor de rechtstreekse bevrediging van individuele of collectieve behoeften. De consumptieve bestedingen kunnen zowel op het eigen grondgebied als in het buitenland worden gedaan, maar het gaat altijd om uitgaven door ingezeten institutionele eenheden, dat wil zeggen in Nederland gevestigde huishoudens, izw's t.b.v. huishoudens en overheidsinstanties. Consumptieve bestedingen worden gedaan door huishoudens, izw's t.b.v. huishoudens en de overheid. Ondernemingen consumeren niet: kosten aan goederen en diensten die ondernemingen maken ten behoeve van hun productie vallen hier niet onder, maar onder intermediair verbruik of investeringen. De overheid is een speciaal geval. Ook de overheid kent intermediair verbruik, naar analogie van ondernemingen. Maar de productie die de overheid levert en waar niet rechtstreeks voor wordt betaald, niet-markt-output (veiligheid bijvoorbeeld), valt onder de (overheids-)consumptie. Het heet dat de overheid 'haar eigen productie consumeert'. Binnen de nationale rekeningen moet alles wat wordt geproduceerd namelijk ook worden afgenomen. Dat de consumptie van de overheidsproductie bij de overheid zelf is neergelegd, is een conventie. Daarnaast bevat de overheidsconsumptie ook door de overheid verstrekte sociale uitkeringen in natura zoals basiszorg (gefinancierd uit AWBZ en de Zorgverzekeringswet) en huurtoeslag.
+M006283;A046348_4;132;Bestedingsindeling consumptie;"Hierbij staan de uitgaven voor consumptiegoederen en -diensten centraal.
+De totale consumptieve bestedingen worden ingedeeld naar de sectoren die de consumptieve uitgaven financieren.
+Indeling schema:
+Totaal consumptieve bestedingen =
+Consumptieve bestedingen door huishoudens en instellingen zonder winstoogmerk (IZW) ten behoeve van huishoudens, waarvan:
+  Consumptieve bestedingen door huishoudens;
+  Consumptieve bestedingen door IZW ten behoeve van huishoudens.
+Consumptieve bestedingen door de overheid, waarvan:
+  Collectieve consumptie door de overheid;
+  Individuele consumptie door de overheid."
+A047811_2;M006283;134;Consumptie huishoudens incl. IZWh;"Uitgaven aan goederen en diensten die door de sector huishoudens en de sector instellingen zonder winstoogmerk ten behoeve van huishoudens (IZWh's) worden gebruikt voor de rechtstreekse bevrediging van hun behoeften.
+Tot de consumptieve bestedingen door huishoudens behoren de volgende grensgevallen:
+- inkomen in natura zoals huisvesting, voeding en kleding en de auto van de zaak
+- diensten van woningen die door de eigenaar zelf worden bewoond en waarbij dus geen sprake is van werkelijk betaalde huur. Deze diensten zijn gewaardeerd met behulp van de huurprijzen voor vergelijkbare woningen
+- producten die voor eigen gebruik zijn geproduceerd, bijvoorbeeld in de landbouw. De waarde ervan is gelijk aan de marktprijs voor deze of vergelijkbare producten
+- duurzame consumptiegoederen, zoals personenauto's, huishoudelijke apparaten, meubilair en kleding. De aankoop door particulieren van woningen wordt echter gerekend tot de investeringen in vaste activa van huishoudens.
+
+Niet alle bestedingen door huishoudens worden als consumptie gezien, huishoudens kunnen ook investeren. Dit betreft met name de aanschaf van een eigen woning en grote werkzaamheden hieraan, zoals verbouwingen en buitenschilderwerk. Kleine reparaties, schilderwerk binnen en de aanschaf van meubelen vallen wel onder consumptie. Ook de aanschaf van een auto en auto-reparaties worden als consumptie gezien.
+
+De consumptieve bestedingen door instellingen zonder winstoogmerk (izw's) ten behoeve van huishoudens omvatten de niet-marktproductie van deze sector met uitzondering van de investeringen in eigen beheer.
+
+De detailgegevens over de consumptieve bestedingen betreffen de binnenlandse particuliere consumptieve bestedingen. Hieronder vallen de consumptieve bestedingen in Nederland, ongeacht het ingezetenschap van de consument. Hieruit kunnen de consumptieve bestedingen door huishoudens worden afgeleid door de consumptie door niet-ingezetenen in Nederland in mindering te brengen en te registreren als uitvoer en de consumptie door ingezetenen in het buitenland erbij te tellen en te registreren als invoer."
+A047813_1;A047811_2;136;Consumptie goederen huishoudens;Consumptie van goederen door huishoudens en instellingen zonder winstoogmerk huishoudens.
+A047875_1;A047813_1;138;Voedings- en genotmiddelen;"Deze categorie bevatten aardappelen, groenten en fruit; vlees en vleeswaren; vis; zuivelproducten; brood, beschuit en broodproducten; overige voedingsmiddelen; consumptie-ijs; zoetwaren; dranken; tabak."
+A047825_1;A047813_1;142;Duurzame consumptiegoederen;"Deze categorie bevat textiel en kleding; lederwaren en schoeisel; woninginrichting; huishoudelijke apparaten; huishoudelijke artikelen; voertuigen; overige duurzame goederen"
+A048214_1;A047813_1;150;Overige goederen;"Motorbrandstoffen; energie; overige goederen"
+A047837_1;A047811_2;154;Consumptie diensten huishoudens;Consumptie van diensten.
+A049169_2;M006283;166;Consumptie overheid;"Consumptieve bestedingen door de sector overheid. De productie die de overheid levert en waar niet rechtstreeks voor wordt betaald, niet-markt-output (veiligheid bijvoorbeeld), valt onder de overheidsconsumptie. Het heet dat de overheid 'haar eigen productie consumeert'. Binnen de nationale rekeningen moet alles wat wordt geproduceerd namelijk ook worden afgenomen. Dat de consumptie van de overheidsproductie bij de overheid zelf is neergelegd, is een conventie. Naast de consumptie van eigen productie bevat de consumptie door de overheid ook bij marktproducenten aangekochte goederen en diensten die door de overheid, direct of indirect, in het kader van sociaal beleid gratis aan gezinnen worden verstrekt ('sociale uitkeringen in natura'). Voorbeelden hiervan zijn de basiszorg (gefinancierd uit AWBZ en de Zorgverzekeringswet) en de huurtoeslag. 
+
+De consumptie van eigen productie is op te splitsen in collectieve overheidsconsumptie en individualiseerbare overheidsconsumptie. De collectieve overheidsconsumptie betreft de uitgaven door de overheid voor collectief gebruikte diensten die worden verleend aan alle leden van de samenleving, bijvoorbeeld uitgaven voor defensie, milieubescherming of openbaar bestuur.
+De individualiseerbare overheidsconsumptie betreft uitgaven die zijn toe te rekenen aan specifieke delen van de samenleving. Hierbij gaat het voornamelijk om uitgaven aan onderwijs."
+M006635;A046348_4;170;Verwervingsindeling consumptie;"De verwervingsindeling van de totale consumptie.
+Hierbij staat centraal de vraag wie de consumptiegoederen en -diensten verwerft: individuen of het collectief.
+Indeling schema:
+Totale consumptieve bestedingen =
+Werkelijke individuele consumptie, waarvan:
+  Consumptieve bestedingen door huishoudens
+  Consumptieve bestedingen door instellingen zonder winstoogmerk (IZW) ten behoeve van huishoudens
+  Individuele consumptie van de overheid
+Werkelijke collectieve consumptie
+"
+A044490_3;M006248;174;Bruto investeringen in vaste activa;"Uitgaven aan productiemiddelen die langer dan één jaar worden ingezet tijdens een productieproces. Het gaat hierbij bijvoorbeeld om een gebouw, woning, vervoermiddel of een machine. Dit in tegenstelling tot goederen of diensten die tijdens het productieproces worden opgebruikt, zoals ijzererts, het intermediair verbruik. Vaste activa kunnen in de loop der jaren in waarde verminderen door slijtage of omdat bijvoorbeeld de techniek veroudert (economische veroudering). Dit wordt verbruik van vaste activa genoemd (ook wel afschrijvingen genoemd). Bij bruto-investeringen zijn deze niet afgehaald van de waarde van de investeringen, bij netto-investeringen is dit wel het geval. 
+
+De volgende investeringsgoederen worden onderscheiden: bouwwerken, vervoermiddelen, machines en installaties, telecommunicatieapparatuur, wapensystemen (inbegrepen bij machines), computers, software, onderzoek en ontwikkeling, in cultuur gebrachte activa (bv. vee en bomen), exploratie en evaluatie van minerale reserves, kosten van eigendomsoverdracht voor niet-geproduceerde activa en intellectuele-eigendommen."
+M006130_1;A044490_3;175;Bruto investeringen naar type activa;"Specificatie van de bruto investeringen naar type van activa.
+De bruto investeringen in vaste activa kunnen ingedeeld worden naar type activa. Deze functionele indeling geeft inzicht in de aard van de investeringsgoederen.
+"
+D006106_1;M006130_1;177;Investeringen uit productie en invoer;Uitgaven voor geproduceerde of ingevoerde materiële of immateriële activa die langer dan een jaar in het productieproces worden gebruikt.
+A049176_1;D006106_1;180;Gebouwen, GWW en grondverbetering;Bruto investeringen in bedrijfsgebouwen, grond-, weg- en waterbouwkundige werken (GWW) en overdrachtskosten op grond.
+A049177_1;D006106_1;186;ICT-apparatuur;Apparatuur op het gebied van de informatie- en communicatietechnologie (ICT-apparatuur): elektronisch werkende toestellen en de elektronische onderdelen daarvan. Voorbeelden zijn elektronische onderdelen en printplaten en computers en randapparatuur.
+A049178_1;D006106_1;192;Immateriële activa;Vaste activa bestaande uit de resultaten van onderzoek en ontwikkeling, de exploratie en evaluatie van minerale reserves, computerprogrammatuur en databanken, originelen op het gebied van woord, beeld en geluid en overige intellectuele eigendommen, die bedoeld zijn om gedurende meer dan één jaar te worden gebruikt. Ook wel als intellectuele eigendommen genoemd.
+M006130_3;A044490_3;198;Bruto investeringen naar bestemming;De bruto investeringen in vaste activa ingedeeld naar de bedrijfstakken waarvoor de investeringen bestemd zijn.
+D006106_3;M006130_3;200;Investeringen uit productie en invoer;Uitgaven voor geproduceerde of ingevoerde materiële of immateriële activa die langer dan een jaar in het productieproces worden gebruikt.
+M002549;M006248;207;Uitvoer naar productgroepen;Uitvoer van goederen en diensten, gespecificeerd naar productgroepen conform de standaardindeling CPA 2008.
+A049141_2;M002549;225;Uitvoer goederen;De goederenstromen (verkoop, ruil en giften) van ingezetenen (in Nederland) naar niet-ingezetenen. Uitvoer van goederen vindt plaats wanneer het economisch eigendom van goederen door een ingezetene wordt overgedragen aan een niet-ingezetene, ongeacht of er sprake is van een fysieke grensoverschrijdende goederenbeweging. Een bedrijf of instantie wordt als hier ingezetene beschouwd wanneer het minimaal een jaar in Nederland actief is. Of dit bedrijf of deze instantie in buitenlandse handen is, doet niet ter zake. De goederenuitvoer omvat ook wederuitvoer, eerder ingevoerde goederen die weer zijn uitgevoerd, na hooguit een kleine bewerking te hebben ondergaan.
+A049142_2;M002549;229;Uitvoer diensten;De dienstenstromen (verkoop, ruil en giften) van ingezetenen (in Nederland) naar niet-ingezetenen. De uitvoer van diensten omvat onder meer de diensten van Nederlandse vervoerbedrijven in het buitenland, aan het buitenland bewezen havendiensten, scheepsreparatie en de uitvoering van werken in het buitenland door Nederlandse aannemers. Onder de uitvoer van diensten vallen eveneens de bestedingen door niet-ingezetenen in Nederland.
+M004229;M006248;234;Invoer naar productgroepen;Uitvoer van goederen en diensten, gespecificeerd naar productgroepen conform de standaardindeling CPA 2008.
+A049146_2;M004229;252;Invoer goederen;De goederenstromen (verkoop, ruil en giften) van niet-ingezetenen naar ingezetenen (in Nederland). Invoer van goederen vindt plaats wanneer de economische eigendom van goederen door een niet-ingezetene wordt overgedragen aan een ingezetene, ongeacht of er sprake is van een fysieke grensoverschrijdende goederenbeweging. Een bedrijf of instantie wordt als hier ingezetene beschouwd wanneer het minimaal een jaar in Nederland actief is. Of dit bedrijf of deze instantie in buitenlandse handen is, doet niet ter zake. Tot de invoer behoren ook voor verwerking in het productieproces benodigde grondstoffen, halffabricaten, brandstoffen en voor investeringen bestemde vaste activa. De goedereninvoer omvat verder goederen die, na hooguit een kleine bewerking te hebben ondergaan, weer zijn uitgevoerd (wederuitvoer).
+A049147_2;M004229;256;Invoer diensten;De dienstenstromen (verkoop, ruil en giften) van niet-ingezetenen naar ingezetenen (in Nederland). De invoer van diensten heeft onder meer betrekking op de uitgaven van ingezeten bedrijven in het buitenland, zoals vervoersdiensten, bankdiensten en zakelijke diensten. Bij de overheid gaat het onder meer om uitgaven van Nederlandse ambassades en consulaten in het buitenland. De invoer door huishoudens bestaat uit uitgaven van ingezetenen in het buitenland.
+A044442_2;M006248;260;Belastingen op productie en invoer;Verplichte betalingen om niet, in geld of in natura, die door de overheid of door de instellingen van de Europese Unie worden opgelegd in verband met de productie of de invoer van goederen en diensten, het in dienst hebben van arbeidskrachten en de eigendom of het gebruik van grond, gebouwen of andere activa die in het productieproces worden aangewend. Dergelijke belastingen zijn verschuldigd ongeacht gemaakte winst. Zowel productgebonden als niet-productgebonden belastingen behoren hiertoe.
+A044449_2;M006248;264;Subsidies;Subsidies zijn betalingen om niet die door de Nederlandse overheid of de instellingen van de Europese Unie worden gedaan aan ingezeten producenten. Zowel productgebonden als niet-productgebonden subsidies behoren hiertoe.

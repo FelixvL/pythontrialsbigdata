@@ -1,0 +1,3 @@
+Identifier;Title;Description;MapYear;ReleasePolicy;Kind;ContainsGroups;ContainsCodes;CodesUrl;GroupsUrl
+SoortMutaties;Soort mutaties;;;;Dimension;False;True;SoortMutatiesCodes.csv;
+Perioden;Perioden;;;True;TimeDimension;True;True;PeriodenCodes.csv;PeriodenGroups.csv
