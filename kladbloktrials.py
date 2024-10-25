@@ -39,44 +39,19 @@ print(df_inflatie_yearly.head())
 # 4. Koppel de consumentenbestedingen met de inflatiegegevens op basis van het jaar ('Title' in consumentenbestedingen en 'Jaar' in inflatie)
 df_merged = df_consumentenbestedingen_grouped.merge(df_inflatie_yearly, left_on='Title', right_on='Jaar')
 
-# Controleer de gecombineerde dataset
-print("Gecombineerde dataset met inflatie en consumentenbestedingen:")
-print(df_merged.head())
+# 5. Filter outliers (consumentenbestedingen boven 10.000 en inflatie boven 10%) direct na het mergen
+df_filtered = df_merged[(df_merged['Value_x'] < 10000) & (df_merged['Value_y'] < 10)]
 
-# 5. Correlatieanalyse tussen inflatie en consumentenbestedingen
-correlatie = df_merged[['Value_x', 'Value_y']].corr()
-print("\nCorrelatie tussen consumentenbestedingen en inflatie:")
-print(correlatie)
+# Controleer de gefilterde dataset
+print("Gecombineerde dataset zonder outliers:")
+print(df_filtered.head())
 
-# 6. Plot de relatie tussen inflatie en consumentenbestedingen
-plt.figure(figsize=(8,5))
-plt.scatter(df_merged['Value_y'], df_merged['Value_x'])
-plt.title('Relatie tussen Consumentenbestedingen en Inflatie')
-plt.xlabel('Inflatie (%)')
-plt.ylabel('Consumentenbestedingen (in miljoenen euro)')
-plt.grid(True)
-plt.show()
-
-# 7. Inspecteer de outliers (extreme waarden)
-# Waarden boven 10.000
-outliers = df_merged[df_merged['Value_x'] > 10000]
-print("Jaren met extreme bestedingen (boven 10.000):")
-print(outliers[['Title', 'Value_x', 'Value_y']])
-
-# Negatieve bestedingen
-neg_bestedingen = df_merged[df_merged['Value_x'] < 0]
-print("Jaren met negatieve bestedingen:")
-print(neg_bestedingen[['Title', 'Value_x', 'Value_y']])
-
-# 8. Filter outliers en negatieve waarden voor heranalyse
-df_filtered = df_merged[(df_merged['Value_x'] > 0) & (df_merged['Value_x'] < 10000)]
-
-# 9. Herbereken de correlatie na filtering
+# 6. Correlatieanalyse na filtering van outliers
 correlatie_filtered = df_filtered[['Value_x', 'Value_y']].corr()
 print("\nCorrelatie na filtering van outliers:")
 print(correlatie_filtered)
 
-# 10. Opnieuw plotten zonder outliers
+# 7. Plot de relatie tussen inflatie en consumentenbestedingen (zonder outliers)
 plt.figure(figsize=(8,5))
 plt.scatter(df_filtered['Value_y'], df_filtered['Value_x'])
 plt.title('Relatie tussen Consumentenbestedingen en Inflatie (zonder outliers)')
@@ -84,3 +59,12 @@ plt.xlabel('Inflatie (%)')
 plt.ylabel('Consumentenbestedingen (in miljoenen euro)')
 plt.grid(True)
 plt.show()
+
+# 8. Inspecteer de outliers (extreme waarden die zijn verwijderd)
+outliers_bestedingen = df_merged[df_merged['Value_x'] > 10000]
+print("\nJaren met extreme consumentenbestedingen (boven 10.000 miljoen euro):")
+print(outliers_bestedingen[['Title', 'Value_x', 'Value_y']])
+
+outliers_inflatie = df_merged[df_merged['Value_y'] > 10]
+print("\nJaren met hoge inflatie (boven 10%):")
+print(outliers_inflatie[['Title', 'Value_x', 'Value_y']])
